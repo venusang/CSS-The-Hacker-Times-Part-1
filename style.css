@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(47, 47, 47);
+  font-weight: lighter;
+  line-height: 1.25em;
 }
 
 header {
@@ -26,6 +28,7 @@ nav {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 1em;
+  font-size: .85em;
 }
 
 nav a {
@@ -47,4 +50,31 @@ nav ul li {
   padding: 0;
   list-style: none;
   display: inline;
+}
+
+h2,
+h4,
+h5 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main h5 {
+  color: red;
+}
+
+main img {
+  width: 100%;
+}
+
+.more-articles section {
+  width: 48%;
+  display: inline-block;
+}
+
+.more-articles section:first-child {
+  margin-right: 3%;
+}
+
+.more-articles section img {
+  width: 100%;
 }
